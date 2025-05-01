@@ -1,10 +1,8 @@
-/* BASE STYLE */
+
 body {
     margin: 0;
     padding: 0;
   }
-/* GARANSI FULLSCREEN TANPA POTONG */
-/* FULLSCREEN FIX */
 .auth-container {
     position: fixed;
     top: 0;
@@ -18,7 +16,6 @@ body {
     z-index: 1000;
   }
   
-  /* CARD RAPIH TANPA UBAH DESAIN */
   .auth-card {
     width: 100%;
     max-width: 400px;
@@ -35,7 +32,7 @@ body {
     font-size: 2rem;
   }
   
-  /* INPUT STYLE */
+
   .input-group {
     margin-bottom: 20px;
   }
@@ -73,7 +70,7 @@ body {
     transition: all 0.3s ease;
   }
   
-  /* TOOLTIP ERROR */
+
   .input-field.invalid input {
     border-color: #ff0000;
   }
@@ -86,7 +83,7 @@ body {
     margin-top: 5px;
   }
   
-  /* BUTTON STYLE */
+ 
   .auth-button {
     width: 100%;
     padding: 15px;
@@ -104,8 +101,7 @@ body {
     background: #f40612;
     transform: translateY(-2px);
   }
-  
-  /* FOOTER LINK */
+ 
   .auth-footer {
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
@@ -117,7 +113,7 @@ body {
     text-decoration: none;
     font-weight: bold;
   }
-/* FORM RAPIH SEJAJAR */
+
 .auth-form {
     width: 100%;
     max-width: 400px;
