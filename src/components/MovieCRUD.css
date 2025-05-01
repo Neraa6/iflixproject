@@ -1,0 +1,24 @@
+.crud-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .form-group > * {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  /* Responsive Table */
+  @media (max-width: 600px) {
+    .form-group {
+      flex-direction: column;
+    }
+  }
